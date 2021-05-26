@@ -1,0 +1,246 @@
+div{
+    display:block;
+    margin: 0;
+padding: 0;
+border: 0;
+}
+
+
+body{
+    font-family: Helvetica; 
+}
+
+#hr_line{
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-top:10px;
+}
+
+h1 {
+	font-family: Helvetica; 
+	font-size: 40px;
+	font-weight: lighter;
+	}
+pre {
+	font-family: Helvetica; 
+	font-size: 15px;
+	font-weight: lighter;
+	}
+
+	
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+	display:block;
+	text-align: center;
+}
+
+#navbar {
+    text-align: center;
+	width:100%;
+	padding-top:0px;
+    padding-bottom:30px;
+    background-color: white;
+}
+
+#title{
+    width: 100%;
+    padding-top:0px;
+    padding-bottom:10px;
+    margin-top: 0px;
+    background-color: white;
+    
+}
+#navbar a {
+	float:left;
+	padding:0PX;
+	width: 20%;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-family: Helvetica; 
+	font-size: 16px;
+    border-color: white;
+    background-color: white;
+
+}
+
+#address{
+	width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 10px;
+    background-color: white;
+}
+#address pre {
+	margin-bottom: 0%;
+	border-bottom: 0;
+}
+
+#top_bg {
+    width:1600x;
+    height:840px;
+    /* The image used */
+    margin: 0 auto;
+    background-image: url("image6.jpg");
+    text-align: center;
+    /* Set a specific height */ 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: 50% 150px;
+    background-repeat: no-repeat;
+    background-size: auto;}
+
+
+.column {
+  float: left;
+  width: 50%;
+    height:1000px;
+    position: relative;
+    top: -300px;
+}
+
+#middle_left_top{
+    padding-right: 5%;
+    padding-top: 27%;
+    background-color: white;
+    height:500px;
+}
+
+#middle_left_middle{
+    padding-right:5%;
+    padding-top:10%;
+    background-color: white;
+    height:250px;
+}
+
+#middle_left_bottom{
+    padding-left:10%;
+    padding-top: 10%;
+    padding-bottom: 0px;   
+}
+
+#head_left{
+   font-family: "Abel"; 
+    color:#BD9C60;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: left;
+    height: 80px;;
+    background-color: white;
+    margin:0;
+}
+
+#text_left{
+   font-family: Helvetica; 
+    color:dimgray;
+    font-size: 15px;
+    text-align: left;
+    height: 100px;
+    line-height: 25px;
+    margin:0;
+}
+
+#link_left{
+   font-family: Helvetica; 
+    color:dimgray;
+    font-size: 15px;
+    text-align: left;
+    height: 100px;
+    line-height: 25px;
+}
+
+#middle_right_top{
+    padding-left: 5%;
+    padding-top: 7%;
+}
+
+#head_right{
+   font-family: "Abel"; 
+    color:#BD9C60;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: left;
+    height: 80px;;
+    background-color: white;
+    margin:0;
+}
+
+#text_right{
+   font-family: Helvetica; 
+    color:dimgray;
+    font-size: 15px;
+    text-align: left;
+    height: 170px;
+    margin:0;
+    line-height: 25px;
+}
+
+#middle_right_middle{
+    padding-left: 5%;
+    padding-top: 10%;
+}
+
+#middle_right_bottom{
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+#bottom_box_image{
+    width:90%;
+    height:800px;
+    position: absolute;
+    top:2000px;
+    left: 5%;
+    background-image: url(image7.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain
+}
+
+#bottom_box_text{
+    width:90%;
+    height:150px;
+    position: absolute;
+    top:2700px;
+    left: 5%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+
+.bottom_bg {
+    height: 600px;
+    width: 100%;
+    /* The image used */
+    background-image: url(image5.jpg);
+    /* Set a specific height */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:absolute;
+    top:2900px;
+
+}
+
+footer {
+    position:absolute;
+    height:200px;
+    width:100%;
+  text-align: left;
+  padding: 0px;
+  background-color: rgb(189,156,88);
+  color: white;
+    top:3400px;
+    font-size: 14px;
+}
+footer p{
+    margin-left:60%;
+}
+
