@@ -40,10 +40,12 @@ pre {
 
 #navbar {
     text-align: center;
+    margin: auto;
 	width:100%;
 	padding-top:0px;
     padding-bottom:30px;
     background-color: white;
+    
 }
 
 #title{
@@ -55,6 +57,7 @@ pre {
     
 }
 #navbar a {
+    margin:auto;
 	float:left;
 	padding:0PX;
 	width: 20%;
@@ -72,8 +75,9 @@ pre {
 	width: 100%;
     padding-top: 0px;
     padding-bottom: 0px;
-    margin-left: 10px;
     background-color: white;
+    position:relative;
+    left:2%
 }
 #address pre {
 	margin-bottom: 0%;
@@ -81,11 +85,11 @@ pre {
 }
 
 #top_bg {
-    width:1600x;
+    width:1200px;
     height:840px;
     /* The image used */
     margin: 0 auto;
-    background-image: url("image6.jpg");
+    background-image: url(image6.jpg);
     text-align: center;
     /* Set a specific height */ 
     /* Create the parallax scrolling effect */
@@ -104,22 +108,22 @@ pre {
 }
 
 #middle_left_top{
-    padding-right: 5%;
-    padding-top: 27%;
+    padding-right: 30px;
+    padding-top: 140px;
     background-color: white;
     height:500px;
 }
 
 #middle_left_middle{
-    padding-right:5%;
-    padding-top:10%;
+    padding-right:30px;
+    padding-top:50px;
     background-color: white;
     height:250px;
 }
 
 #middle_left_bottom{
-    padding-left:10%;
-    padding-top: 10%;
+    padding-right:30px;
+    padding-top: 50px;
     padding-bottom: 0px;   
 }
 
@@ -129,34 +133,37 @@ pre {
     font-size: 32px;
     font-style: italic;
     font-weight: bold;
-    text-align: left;
+    text-align: right;
     height: 80px;;
     background-color: white;
     margin:0;
+    padding-right:130px;
 }
 
 #text_left{
    font-family: Helvetica; 
     color:dimgray;
     font-size: 15px;
-    text-align: left;
+    text-align: right;
     height: 100px;
     line-height: 25px;
     margin:0;
+    padding-right:130px;
 }
 
 #link_left{
    font-family: Helvetica; 
     color:dimgray;
     font-size: 15px;
-    text-align: left;
+    text-align: right;
     height: 100px;
     line-height: 25px;
+    padding-right:320px;
 }
 
 #middle_right_top{
-    padding-left: 5%;
-    padding-top: 7%;
+    padding-left: 30px;
+    padding-top: 40px;
 }
 
 #head_right{
@@ -182,36 +189,31 @@ pre {
 }
 
 #middle_right_middle{
-    padding-left: 5%;
-    padding-top: 10%;
+    padding-left: 30px;
+    padding-top: 80px;
 }
 
 #middle_right_bottom{
-    padding-left: 5%;
-    padding-top: 5%;
+    padding-left: 30px;
+    padding-top: 40px;
 }
 
 #bottom_box_image{
-    width:90%;
+    width:100%;
     height:800px;
     position: absolute;
     top:2000px;
-    left: 5%;
     background-image: url(image7.jpg);
     background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: contain
+    background-position: center;
+    background-size: 950px auto;
 }
 
 #bottom_box_text{
-    width:90%;
+    width:100%;
     height:150px;
     position: absolute;
-    top:2700px;
-    left: 5%;
-    padding-top: 0px;
-    padding-bottom: 0px;
-
+    top:2730px;
 }
 
 .bottom_bg {
@@ -223,7 +225,7 @@ pre {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 1200px auto;
     position:absolute;
     top:2900px;
 
@@ -239,8 +241,10 @@ footer {
   color: white;
     top:3400px;
     font-size: 14px;
+    margin:0 auto;
 }
 footer p{
     margin-left:60%;
 }
+
 
